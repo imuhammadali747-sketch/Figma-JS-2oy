@@ -1,0 +1,1045 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.pageone {
+    min-height: 1000px;
+    background-image: url("../assets/Rectangle\ 26.png");
+    margin-bottom: 100px;
+}
+
+.dark .pageone {
+    background-image: linear-gradient(rgba(4, 8, 15, 0.78), rgba(4, 8, 15, 0.78)), url("../assets/Rectangle\ 26.png");
+}
+
+.dark {
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.dark .cardmatnpagethre {
+    background-color: #1b1b1b;
+}
+
+.dark .namepagefour h1 {
+    color: white;
+}
+
+.dark .malumotimgpagefour h1 {
+    color: white;
+}
+
+.dark .malumotimgpagefour p {
+    color: white;
+}
+
+.dark .ongpagefive h1 {
+    color: white;
+}
+
+.dark .uslugchap h2 {
+    color: white;
+}
+
+.dark .search input {
+    color: white;
+}
+
+.dark .photo {
+    border-color: #333;
+}
+
+.dark .uslugarasm {
+    border-color: #333;
+}
+
+.dark .footer {
+    background-color: #1b1b1b;
+    color: #f1f1f1;
+}
+
+.dark .footer-nav {
+    color: #f1f1f1;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.clock h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.clock .time {
+    padding: 6px 12px;
+    border: 1px solid #00ff99;
+    border-radius: 10px;
+    background: #1c2935;
+    box-shadow: 0 0 12px #00ff9955;
+    color: #00ff99;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 16px;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.vebsite {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 40px;
+}
+
+.theme-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.theme-switcher {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 18px;
+}
+
+.theme {
+    padding: 8px 10px;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+}
+
+
+.matnsec {
+    width: 486px;
+    height: 201px;
+    font-size: 26px;
+    color: white;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 325px;
+    margin-top: 225px;
+}
+
+.btnsec {
+    display: flex;
+    margin-left: 325px;
+}
+
+.btnsec img {
+    cursor: pointer;
+}
+
+.pibtn {
+    margin-left: 15px;
+    margin-top: 15px;
+    color: white;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.cardslink {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 322px;
+    margin-top: 232px;
+    gap: 15px;
+}
+
+.cardlink {
+    min-width: 0;
+    height: 150px;
+    background-color: #8d86c9;
+    padding-top: 35px;
+}
+
+.namecard {
+    margin-left: 35px;
+}
+
+.namecard h4 {
+    color: white;
+}
+
+.kartacard {
+    display: flex;
+    gap: 55px;
+    margin-left: 35px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.kartacard h2 {
+    color: white;
+    white-space: nowrap;
+}
+
+.pagetwo {
+    padding: 0 24px 80px;
+}
+
+.cardspagetwo {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    max-width: 1296px;
+    margin-left: 135px;
+}
+
+.cardpagetwo {
+    width: 306px;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.malumotpagetwo {
+    position: relative;
+    min-height: 355px;
+    color: white;
+    text-align: center;
+}
+
+
+.malumotpagetwo img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 0.5px solid rgba(128, 128, 128, 0.248);
+}
+
+.malumotpagetwo p {
+    position: absolute;
+    z-index: 1;
+    right: 12px;
+    left: 12px;
+    font-family: "Montserrat", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.malumotpagetwo p:first-of-type {
+    bottom: 62px;
+}
+
+.malumotpagetwo p:last-of-type {
+    bottom: 28px;
+}
+
+.bottompagetwo {
+    bottom: 62px;
+}
+
+.bottompagetwotext {
+    bottom: 28px;
+}
+
+.pagethre {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 382px;
+}
+
+.pagethre img {
+    width: 390px;
+    height: 381px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.cardmatnpagethre {
+    width: 471px;
+    min-height: 484px;
+    background-color: #f7ecdf;
+    padding-top: 52px;
+    padding-right: 44px;
+    padding-bottom: 40px;
+    padding-left: 108px;
+    margin-left: -63px;
+}
+
+.cardmatnpagethre h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cardmatnpagethre p {
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+
+.cardmatnpagethre h3 {
+    font-size: 17px;
+    margin-top: 24px;
+    margin-right: 0;
+    margin-bottom: 16px;
+    margin-left: 0;
+}
+
+.cardmatnpagethre div {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.cardmatnpagethre div img {
+    width: 6px;
+    height: 6px;
+    margin-top: 3px;
+}
+
+.pagefour {
+    max-width: 1296px;
+    margin: 0 auto;
+    padding: 0 24px 64px;
+}
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.namepagefour h1 {
+    color: #333;
+    font-size: 20px;
+}
+
+.cardsheaders {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.see-all-btn {
+    display: none;
+}
+
+.cardheaders {
+    text-align: center;
+}
+
+.photo {
+    position: relative;
+    padding: 0 16px;
+    border: 1px solid #eee6df;
+}
+
+.photo img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 0.68;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.like-btn {
+    position: absolute;
+    top: 12px;
+    right: 28px;
+    display: grid;
+    width: 38px;
+    height: 38px;
+    place-items: center;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    color: #555;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.like-btn:hover {
+    transform: scale(1.08);
+}
+
+.like-btn:focus-visible {
+    outline: 2px solid #8d86c9;
+    outline-offset: 2px;
+}
+
+.like-btn.is-liked {
+    color: #e54864;
+}
+
+.malumotimgpagefour {
+    padding-top: 24px;
+}
+
+.malumotimgpagefour h1 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.malumotimgpagefour p {
+    color: #555;
+    font-size: 14px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 350px;
+    height: 45px;
+    padding: 0 14px;
+    border: 1px solid #d9d7e8;
+    border-radius: 4px;
+    color: #8D86C9;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #1f1f1f;
+}
+
+.search input::placeholder {
+    color: #8b8b8b;
+}
+
+.leftorrightheaders {
+    display: flex;
+    gap: 22px;
+}
+
+.belgi-btn {
+    width: 45px;
+    height: 45px;
+    background: #8D86C9;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.belgi-btn i {
+    font-size: 16px;
+    color: #fff;
+}
+
+.pagefive {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 952px;
+    gap: 98px;
+    margin-left: 244px;
+    padding: 32px 0 64px;
+}
+
+.ongpagefive h1 {
+    margin-bottom: 54px;
+    color: #333;
+    font-size: 28px;
+}
+
+.btnspagefive {
+    display: grid;
+    gap: 22px;
+}
+
+.buttonpagefive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    padding: 0 24px;
+    border: none;
+    background: #8D86C9;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttonpagefive i {
+    font-size: 16px;
+}
+
+.uslugchap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    margin-bottom: 42px;
+}
+
+.uslugchap h2 {
+    color: #333;
+    font-size: 26px;
+}
+
+.ongvachaptugma {
+    display: flex;
+    gap: 12px;
+}
+
+.ongvachaptugma .belgi-btn {
+    width: 34px;
+    height: 34px;
+}
+
+.uslugarasm {
+    position: relative;
+    padding: 16px;
+    border: 1px solid #eee6df;
+}
+
+.uslugarasm img {
+    display: block;
+    width: 100%;
+    height: 199px;
+}
+
+.uslugarasm h3 {
+    position: absolute;
+    right: 28px;
+    bottom: 30px;
+    left: 28px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer {
+    background: #f7ecdf;
+    color: #222;
+}
+
+.footer-malumotlari {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 12px 60px;
+}
+
+.footer-nav {
+    color: #222;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.footer-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer-nav li {
+    list-style: none;
+}
+
+.footer-iconlari {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-iconlari img {
+    display: block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.footer-since-malumoti {
+    color: #aaa;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1024px) {
+    header {
+        justify-content: space-between;
+        gap: 24px;
+        padding-right: 24px;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    header nav ul {
+        gap: 35px;
+        margin-top: 47px;
+    }
+
+    header nav ul li {
+        font-size: 15px;
+    }
+
+    .element-hidden {
+        display: none;
+    }
+
+    .logo img {
+        width: 125px;
+        height: 38px;
+    }
+
+    .vebsite img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .theme {
+        padding: 6px 8px;
+        font-size: 12px;
+    }
+
+    .cardslink {
+        margin-left: 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .cardspagetwo {
+        margin-left: 0;
+    }
+
+    .cardlink {
+        margin-top: 10px;
+    }
+
+    .namecard {
+        margin-left: 20px;
+    }
+
+    .kartacard {
+        margin-left: 20px;
+    }
+
+    .kartacard {
+        justify-content: space-between;
+        gap: 12px;
+        margin-right: 20px;
+    }
+
+    .kartacard h2 {
+        font-size: 16px;
+    }
+
+    .pagethre {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .cardsheaders {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .see-all-btn {
+        display: block;
+        margin: 24px auto 0;
+        padding: 12px 28px;
+        border: none;
+        background: #8d86c9;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .pagefive {
+        width: 100%;
+        gap: 40px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .footer-malumotlari {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .footer-nav ul {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        justify-items: center;
+        gap: 12px 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pageone {
+        min-height: 870px;
+        padding-bottom: 32px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 0 16px;
+    }
+
+    .logo {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .logo img {
+        width: 110px;
+        height: 33px;
+    }
+
+    header nav {
+        flex: none;
+        width: 100%;
+    }
+
+    header nav ul {
+        margin-top: 0;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    header nav ul li {
+        font-size: 10px;
+    }
+
+    .vebsite {
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .vebsite img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .theme {
+        padding: 5px 6px;
+        font-size: 10px;
+    }
+
+    hr {
+        margin-top: 16px;
+    }
+
+    .matnsec {
+        width: 100%;
+        height: 150px;
+        margin-top: 80px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 24px;
+        padding-left: 24px;
+        font-size: 22px;
+    }
+
+    .btnsec {
+        margin-left: 24px;
+    }
+
+    .cardslink {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        margin-top: 80px;
+        gap: 12px;
+    }
+
+    .kartacard {
+        align-items: center;
+    }
+
+    .kartacard h2 {
+        font-size: 12px;
+    }
+
+    .cardspagetwo {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+
+    .cardpagetwo {
+        width: 100%;
+    }
+
+    .pagethre {
+        align-items: stretch;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .pagethre img {
+        width: 42%;
+        min-width: 0;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .cardmatnpagethre {
+        width: 58%;
+        min-width: 0;
+        margin-left: 0;
+        padding: 32px 24px 24px;
+    }
+
+    .headers {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+    }
+
+    .search {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+
+    .cardsheaders {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .cardsheaders .cardheaders:nth-child(n + 3) {
+        display: none;
+    }
+
+    .pagefive {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .footer-malumotlari {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .footer-nav {
+        width: 100%;
+        white-space: normal;
+    }
+
+    .footer-nav ul {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        justify-items: center;
+        gap: 12px 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pageone {
+        min-height: 810px;
+    }
+
+    header nav ul {
+        gap: 4px;
+    }
+
+    header nav ul li {
+        font-size: 8px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: 27px;
+    }
+
+    .vebsite {
+        gap: 8px;
+    }
+
+    .vebsite img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .theme {
+        padding: 4px 5px;
+        font-size: 9px;
+    }
+
+    .matnsec {
+        margin-top: 56px;
+        font-size: 18px;
+    }
+
+    .cardslink {
+        margin-top: 56px;
+    }
+
+    .namecard {
+        margin-left: 16px;
+    }
+
+    .kartacard {
+        margin-left: 12px;
+        gap: 2px;
+        margin-right: 6px;
+    }
+
+    .kartacard h2 {
+        font-size: 11px;
+    }
+
+    .kartacard img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cardspagetwo {
+        flex-direction: column;
+    }
+
+    .cardpagetwo {
+        width: 100%;
+    }
+
+    .pagethre {
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .pagethre img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .cardmatnpagethre {
+        width: 100%;
+        min-height: 0;
+        margin-top: -24px;
+        margin-left: 0;
+        padding-top: 48px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+    }
+
+    .pagefour {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .cardsheaders {
+        gap: 16px;
+    }
+
+    .photo {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .like-btn {
+        right: 12px;
+    }
+
+    .malumotimgpagefour h1 {
+        font-size: 16px;
+    }
+
+    .pagefive {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .pagethre {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .footer-since-malumoti {
+        font-size: 12px;
+    }
+
+    .cardspagetwo {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-nav ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

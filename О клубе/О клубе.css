@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header start */
+
+.header {
+    background-image: url(../assets/Rectangle\ 26\(3\).png);
+    width: 100%;
+    height: 263px;
+}
+
+header {
+    display: flex;
+    gap: 185px;
+    width: 100%;
+    height: 263px;
+}
+
+header nav ul{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+header nav ul li {
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 142px;
+}
+
+.vebsite {
+    margin-top: 40px;
+}
+
+.page-title {
+    text-align: center;
+    padding: 24px 0;
+}
+
+.page-title h1 {
+    color: white;
+    font-size: 48px;
+    margin-top: -136px;
+}
+
+/* header end */
+
+.pageoneoclube {
+    position: relative;
+    width: 84.375%;
+    margin-top: 80px;
+    margin-left: 7.8125%;
+}
+
+.headerpageclube {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.matnpageclube h2 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.buttonpageclube {
+    display: flex;
+    gap: 12px;
+}
+
+.belgi-btn-pageclube {
+    width: 48px;
+    height: 44px;
+    border: 0;
+    background-color: #9288ca;
+    color: white;
+    cursor: pointer;
+}
+
+.pageoneoclube > img {
+    display: block;
+    width: calc(100% - 44px);
+    margin-left: 22px;
+}
+
+.kort-label {
+    position: absolute;
+    bottom: 40px;
+    left: 72px;
+    padding: 12px 20px;
+    background-color: #9288ca;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.pagetwoclube {
+    width: 84.375%;
+    margin-top: 80px;
+    margin-left: 7.8125%;
+}
+
+.pagetwoclube h2 {
+    margin-bottom: 48px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.pagetwoclubeinfo {
+    display: flex;
+    align-items: center;
+    background-color: #f7ede4;
+}
+
+.pagetwoclubeinfo img {
+    display: block;
+    width: 50%;
+    height: 520px;
+    object-fit: cover;
+}
+
+.pagetwoclube-text {
+    width: 50%;
+    padding: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagetwoclube-text h2 {
+    margin-bottom: 28px;
+    color: #333;
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.pagetwoclube-text p {
+    margin-bottom: 14px;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.pagetwoclube-stats {
+    display: flex;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.pagetwoclube-stats div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagetwoclube-stats .numberpagetwoclube {
+    color: #9288ca;
+    font-size: 38px;
+}
+
+.pagetwoclube-stats span {
+    color: #333;
+    font-size: 11px;
+}
+
+.pageclubeqoida {
+    width: 84.375%;
+    margin: 80px 0 0 7.8125%;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageclubeqoidainfo {
+    margin-bottom: 48px;
+    font-size: 32px;
+}
+
+.pageclubeqoidatartibi {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 80px;
+}
+
+.pageclubeqoidamenu ul,
+.pageclubeqoidamatni ul {
+    padding: 0;
+    list-style: none;
+}
+
+.pageclubeqoidamenu li {
+    margin-bottom: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.pageclubeqoidamatni h3 {
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.pageclubeqoidamatni ul {
+    margin-bottom: 40px;
+}
+
+.pageclubeqoidamatni li,
+.pageclubeqoidamatni p {
+    margin-bottom: 14px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-clube {
+    margin-top: 80px;
+    background: #f7ecdf;
+    color: #222;
+}
+
+.footer-malumotlari-clube {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 12px 60px;
+}
+
+.footer-nav-clube {
+    color: #222;
+    font-size: 15px;
+}
+
+.footer-nav-clube ul {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.footer-nav-clube li {
+    list-style: none;
+}
+
+.footer-iconlari-clube {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-iconlari-clube img {
+    display: block;
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.footer-since-malumoti-clube {
+    color: #aaa;
+    font-size: 15px;
+}
