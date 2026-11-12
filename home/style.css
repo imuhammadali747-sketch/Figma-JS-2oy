@@ -88,7 +88,6 @@
     font-size: 18px;
     letter-spacing: 2px;
     font-variant-numeric: tabular-nums;
-    white-space: nowrap;
 }
 
 
@@ -220,7 +219,6 @@ hr {
 
 .kartacard h2 {
     color: white;
-    white-space: nowrap;
 }
 
 .pagetwo {
@@ -586,7 +584,6 @@ hr {
 .footer-nav {
     color: #222;
     font-size: 15px;
-    white-space: nowrap;
 }
 
 .footer-nav ul {
@@ -615,7 +612,6 @@ hr {
 .footer-since-malumoti {
     color: #aaa;
     font-size: 15px;
-    white-space: nowrap;
 }
 
 @media (max-width: 1024px) {
@@ -895,7 +891,6 @@ hr {
 
     .footer-nav {
         width: 100%;
-        white-space: normal;
     }
 
     .footer-nav ul {
