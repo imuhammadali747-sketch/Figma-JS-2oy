@@ -108,6 +108,10 @@ header nav ul {
     margin-top: 50px;
 }
 
+header nav {
+    margin-left: 140px;
+}
+
 header nav ul li {
     list-style: none;
     color: white;
@@ -132,7 +136,14 @@ hr {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.header-clock-darkmode {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .theme-column {
@@ -625,6 +636,10 @@ hr {
         margin-left: 0;
     }
 
+    header nav {
+        margin-left: 0;
+    }
+
     header nav ul {
         gap: 35px;
         margin-top: 47px;
@@ -776,7 +791,12 @@ hr {
 
     .vebsite {
         margin-top: 0;
+        margin-left: 0;
         justify-content: center;
+    }
+
+    .header-clock-darkmode {
+        margin-top: 0;
     }
 
     .vebsite img {
@@ -807,6 +827,8 @@ hr {
     .btnsec {
         margin-left: 24px;
     }
+
+
 
     .cardslink {
         grid-template-columns: repeat(2, minmax(0, 1fr));
