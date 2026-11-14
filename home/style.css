@@ -417,21 +417,9 @@ hr {
     color: #555;
     cursor: pointer;
     font-size: 18px;
-    transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.like-btn:hover {
-    transform: scale(1.08);
-}
 
-.like-btn:focus-visible {
-    outline: 2px solid #8d86c9;
-    outline-offset: 2px;
-}
-
-.like-btn.is-liked {
-    color: #e54864;
-}
 
 .malumotimgpagefour {
     padding-top: 24px;
