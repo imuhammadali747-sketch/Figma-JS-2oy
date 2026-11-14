@@ -880,10 +880,6 @@ hr {
         gap: 20px;
     }
 
-    .cardsheaders .cardheaders:nth-child(n + 3) {
-        display: none;
-    }
-
     .pagefive {
         grid-template-columns: 1fr;
         gap: 40px;
